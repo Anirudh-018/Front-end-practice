@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(69, 62, 62);
+            color:aliceblue;
+            padding: 16px;
+        }
+        a{
+            margin: 10px;
+        }
+        img{
+            height: 55px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            padding:16px;
+        }
+        .p1{
+            display: flex;
+            background-color: greenyellow;
+            justify-content: end;
+            height:auto;
+            width: 90%;
+        }
+        .p2{
+            display: flex;
+            background-color: greenyellow;
+            justify-content: end;
+            height:auto;
+            width: 80%;
+        }
+        .p3{
+            display: flex;
+            background-color: greenyellow;
+            justify-content: end;
+            height:auto;
+            width: 70%;
+        }
+        .white{
+            display: flex;
+            background-color: black;
+            width: 10%;
+        }
+        .prog{
+            background-color: antiquewhite;
+            border: 1px solid;
+        }
+        .stats{
+            width: 40%;
+            margin:10px;
+
+        }
+        .about{
+            margin:10px;
+            width :60%;
+        }
+        .selected{
+            color:greenyellow;
+        }
+        .btn{
+            color:greenyellow;
+            border: 2px solid greenyellow;
+            background-color: white;
+            height:15%;
+            text-align: center;
+            width: 15%;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><img src="../images/Focal.png" alt="logo"></div>
+        <div class="nav">
+            <nav>
+                <a>HOME</a>
+                <a>ABOUT ME</a>
+                <a class="selected">SKILLS</a>
+                <a>RESUME</a>
+                <a>TESTIMONIALS</a>
+                <a>PORTFOLIO</a>
+                <a>CONTACT US</a>
+            <nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about">
+            <h1>MY SKILLS</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button class="btn">Contact Me</button>
+        </div>
+        <div class="stats">
+            <h3>PHOTOSHOP</h3>
+            <div class="prog">
+                <div class="p1">90%</div>
+            </div>
+            <h3>ILLUSTRATOR</h3>
+            <div class="prog">
+                <div class="p2">80%</div>
+            </div>
+            <h3>HTML/CSS</h3>
+            <div class="prog">
+                <div class="p1">90%</div>
+            </div>
+            <h3>MYSQL/PHP</h3>
+            <div class="prog">
+                <div class="p3">70%</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
