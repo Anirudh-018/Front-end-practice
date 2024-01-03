@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            background-color: black;
+            justify-content:right;
+            align-items: flex-end;
+            background-image: url('../images/violet.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            color:antiquewhite;
+            background-color: blueviolet;
+            padding: 16px;
+            height:70vh;
+            width: 50vb;
+            margin-top:50px;
+            margin-right: 100px;
+            justify-content: space-evenly;
+        }
+        .plat{
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .item{
+            background-color: rgb(172, 97, 242);
+            padding: 8px;
+            width: 40%;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .content h3,p{
+            text-align: center;
+        }
+        input{
+            background-color: rgb(91, 22, 155);
+            height:4vh;
+        }
+        #login{
+            margin-top: 16px;
+            background-color: darkorange;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        .out{
+            margin-right: 100px;
+            color: aliceblue;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        img{
+            height: 20px;
+            width: 20px;
+        }
+        button{
+            border: 0px;
+        }
+        hr{
+            width:100%
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h3>Login</h3>
+        <div class="plat">
+            <button class="item"><img src="../images/google.png" alt="google">Google</button>
+            <button class="item"><img src="../images/fb.jpeg" alt="google">Facebook</button>
+        </div>
+        <p>or</p>
+        <hr/>
+        <form action="#" method="get" >
+            <h4>Email</h4>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <h4>Password</h4>
+            <input type="password" name="password" id="password" placeholder="Enter your email"><br>
+            <input type="submit" value="Login" id="login">
+        </form>
+    </div>
+    <div class="out">
+        <p>Don't have an account ?<a style="color:orange">sign up</a></p>
+    </div>
+</body>
+</html>
