@@ -1,7 +1,10 @@
+*{
+    font-family: sans-serif;
+}
 .nav{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(69, 62, 62);
+    background-color: rgb(23, 21, 21);
     color:aliceblue;
     padding: 16px;
 }
@@ -18,23 +21,26 @@ img{
 }
 .p1{
     display: flex;
-    background-color: greenyellow;
+    background-color: rgb(45,170,45);
     justify-content: end;
+    font-weight: bold;
     height:auto;
     width: 90%;
 }
 .p2{
     display: flex;
-    background-color: greenyellow;
+    background-color: rgb(45,170,45);
     justify-content: end;
+    font-weight: bold;
     height:auto;
     width: 80%;
 }
 .p3{
     display: flex;
-    background-color: greenyellow;
+    background-color: rgb(45,170,45);
     justify-content: end;
     height:auto;
+    font-weight: bold;
     width: 70%;
 }
 .white{
@@ -55,14 +61,33 @@ img{
     width :60%;
 }
 .selected{
-    color:greenyellow;
+    color:rgb(45,170,45);
 }
 .btn{
-    color:greenyellow;
-    border: 2px solid greenyellow;
+    color:rgb(45,170,45);
+    border: 2px solid rgb(45,170,45);
     background-color: white;
     height:15%;
     text-align: center;
     width: 15%;
     font-size: 15px;
+}
+.f{
+    background-color: gray;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px 10px 8px 10px;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px 10px 8px 10px;
+}
+span{
+    color: rgb(45,170,45);
 }
